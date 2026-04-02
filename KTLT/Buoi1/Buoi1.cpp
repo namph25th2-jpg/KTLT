@@ -82,7 +82,7 @@ int main() {
 		}
 		cout << "Press Enter to continue.....";
 		cin.ignore();
-		cin; .get();
+		cin.get();
 
 
 	} while (true);
