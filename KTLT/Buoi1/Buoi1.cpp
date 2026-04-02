@@ -16,10 +16,10 @@ void Show(vector<person> p) {
 		/*for (int i = 0; i < p.size(); i++)*/
 		for (int i = p.size() - 1; i >= 0; i--) {
 			cout << "Person information" << endl;
-			cout << "/t + Id:" << p[i].id << endl;
-			cout << "/t + Name:" << p[i].name << endl;
-			cout << "/t + Age:" << p[i].age << endl;
-			cout << "/t + Home town:" << p[i].hometown << endl;
+			cout << "\t + Id:" << p[i].id << endl;
+			cout << "\t + Name:" << p[i].name << endl;
+			cout << "\t + Age:" << p[i].age << endl;
+			cout << "\t + Home town:" << p[i].hometown << endl;
 
 		}
 	}
